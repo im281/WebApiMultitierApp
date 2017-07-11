@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Repositories.Repos
 {
-    class MongoDbBookRepository
+    public class MongoDbBookRepository : IDisposable
     {
+        public void Dispose()
+        {
+            
+        }
     }
 }
